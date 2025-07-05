@@ -10,10 +10,13 @@ public class P2_Hollow_Rectangle {
 
     public static void main(String args[]) {
         Scanner scan = new Scanner(System.in);
+
         System.out.print("Enter the Rows : ");
         int maxRow = scan.nextInt();
+
         System.out.print("Enter the Columns : ");
         int maxCol = scan.nextInt();
+
         scan.close();
 
         for (int row = 1; row <= maxRow; row++) {
@@ -24,6 +27,7 @@ public class P2_Hollow_Rectangle {
                     System.out.print("  ");
                 }
             }
+
             System.out.println();
         }
     }
